@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+  height:max-content ;
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.keyboardContainer{
+  background-color: #8A8894;
+  padding:30px;
+  border-radius: 20px;
+}
+.displayArea{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  min-height: 220px;
+  max-height: auto;
+  font-size: 22px;
+  width: 55%;
+  border-radius: 8px;
+  border: 35px solid #8A8894;
+  word-wrap: break-word;
+  text-align: start;
+  padding:5px;
+}
+@media screen and (max-width:500px) {
+  .App{
+    width: fit-content;
+  }
+  .displayArea{
+    width: 90%;
+  }
+  .keyboardContainer{
+    width:90%;
+  }
+}

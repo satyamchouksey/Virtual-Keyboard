@@ -1,0 +1,42 @@
+.commonButton{
+    width:50px;
+    height:50px;
+    background-color: rgb(43, 41, 41);
+    color:beige;
+    margin:3px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.commonButton:active{
+    margin-bottom:-1px;
+}
+.commonButton:hover{
+    cursor: pointer;
+}
+.deleteButton{
+    width:70px;
+}
+.RowContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.tabButton{
+    width:70px;
+}
+.capsButton{
+    width:88px;
+}
+.returnButton{
+    width:88px;
+}
+.shiftButton{
+    width:116px;
+}
+.spaceButton{
+    width:250px;
+}
