@@ -7,7 +7,7 @@ const FifthRow = ({
   const [content, setcontent] = useState([]);
  const eventHandler = (button) => {
     settypedContent((prev) => {
-      return prev + "    ";
+      return prev + " ";
     });
  };
   useEffect(() => {

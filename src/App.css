@@ -23,6 +23,7 @@
   word-wrap: break-word;
   text-align: start;
   padding:5px;
+  white-space:break-spaces;
 }
 @media screen and (max-width:500px) {
   .App{
