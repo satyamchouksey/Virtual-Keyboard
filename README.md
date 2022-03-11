@@ -1,6 +1,8 @@
 # Getting Started with Create React App
+This is virtual keyboard which has some extra functionality like on each button click it randomly changes the buttons order,
+performs actions on special key.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+live link: https://master.d330morwp7ex26.amplifyapp.com/
 
 ## Available Scripts
 
